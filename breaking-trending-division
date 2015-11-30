@@ -1,3 +1,4 @@
+# Python wrapper for Twitter API
 import tweepy
 
 # retrieve from http://dev.twitter.com/apps
