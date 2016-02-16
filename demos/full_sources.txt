@@ -46,3 +46,5 @@ Dallas_News; Dallas, TX; 0.5; local
 DMagazine; Dallas, TX; 0.9; local
 CBSDFW; Dallas/Forth Worth; 0.65; local
 TexasTribune; Austin, TX; 0.75; local
+StarTelegram; Fort Worth, TX; 0.75; local/national
+
