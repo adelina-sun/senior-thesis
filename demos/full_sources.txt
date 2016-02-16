@@ -1,0 +1,48 @@
+BBCBreaking; London, UK; 0.1; global
+cnnbrk; Atlanta, GA; 0.1; global
+breakingnews; n/a; 0.1; global
+ReutersLive; New York City; 0.1; global
+AP; New York City; 0.1; global
+SkyNewsBreak; London, UK; 0.1; global
+WSJbreakingnews; New York City; 0.1; global
+TWCBreaking; Atlanta, GA; 0.1; global
+DenverPostBrk; Denver, CO; 0.1; local/global
+Reuters; New York City; 0.5; global
+nytimes; New York City; 0.7; local/global
+washingtonpost; New York City; 0.5; local/global
+CNN; Atlanta, GA; 0.7; global
+WSJ; New York City; 0.5; global
+BBCWorld; London, UK; 0.9; global
+TIME; New York City; 0.5; global
+NBCNews; New York City; 0.5; global
+ABC; New York City; 0.5; global
+HuffingtonPost; New York City; 0.7; global
+AJENews; Doha, Qatar; 0.4; global
+guardian; London, UK; 0.3; global
+NPR; Washington D.C.; 0.65; national/global
+guardiannews; London, UK; 0.7; global
+mashable; New York City; 0.7; global
+FoxNews; New York City; 0.4; national/global
+CBSNews; New York City; 0.6; global
+BuzzFeedNews; New York City; 0.5; national/global
+NewsHour; Washington D.C.; 0.4; national/global
+Slate; New York City; 0.8; global
+cnni; London, UK; 0.65; global
+SkyNews; London, UK; 0.7; global
+CBCNews; Ottawa, Ontario, Canada; 0.7; global
+voxdotcom; Washington D.C.; 0.7; national/global
+TheAtlantic; Washington D.C.; 0.85; global
+Politico; Washington D.C.; 0.75; national/global
+FiveThirtyEight; New York City; 0.9; national/global
+NateSilver538; New York City; 0.2; national
+EzraKlein; Washington D.C.; 0.7; national
+GallupNews; Washington D.C.; 0.6; national
+pewresearch; Washington D.C.; 0.6; national
+KERANews; Dallas, TX; 0.6; local
+artandseek; Dallas, TX; 0.85; local
+wfaachannel8; Dallas, TX; 0.4; local
+Dallas_Observer; Dallas, TX; 0.9; local
+Dallas_News; Dallas, TX; 0.5; local
+DMagazine; Dallas, TX; 0.9; local
+CBSDFW; Dallas/Forth Worth; 0.65; local
+TexasTribune; Austin, TX; 0.75; local
