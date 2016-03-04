@@ -1,3 +1,5 @@
+# assumes tweets are saved locally in text file
+
 # Python wrapper for Twitter API
 import tweepy
 # still crashing when emojis encountered
