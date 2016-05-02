@@ -1,0 +1,60 @@
+TexasTribune;Austin, TX;0.75;local
+TexasStandard;Austin, TX;0.8;local
+GlobeMetro;Boston, MA;0.8;local
+ChicagoTribune;Chicago, IL; 0.65;local
+Suntimes;Chicago, IL;0.6;local
+CSTbreaking;Chicago, IL;0.1;local
+KERANews;Dallas, TX;0.6;local
+artandseek;Dallas, TX;0.85;local
+wfaachannel8;Dallas, TX;0.85;local
+Dallas_Observer;Dallas, TX;0.4;local
+Dallas_News;Dallas, TX;0.5;local
+DMagazine;Dallas, TX;0.9;local
+CBSDFW;Dallas, TX;0.65;local
+DallasBizNews;Dallas, TX;0.8;local
+DallasVoice;Dallas, TX;0.75;local
+dallasweekly;Dallas, TX;0.85;local
+DallasPD;Dallas, TX;0.5;local
+stellamchavez;Dallas, TX;0.55;local
+tomthuang;Dallas, TX;0.85;local
+startelegram;Fort Worth, TX;0.75;local
+NWSFortWorth;Fort Worth, TX;0.15;local
+HastingsTribune;Hastings, NE;0.9;local
+NWSHastings;Hastings, NE;0.15;local
+NBCNebraska;Hastings, NE;0.55;local
+CatSilverTV;Hastings, NE;0.85;local
+ShaleekaNBCNEB;Hastings, NE;0.6;local
+PoliceHastings;Hastings, NE;0.55;local
+NETNewsNebraska;Lincoln, NE;0.5;local
+1011_News;Lincoln, NE;0.65;local
+Channel8ABC;Lincoln, NE;0.85;local
+Newsday;Long Island, NY;0.6;local
+NYTMetro;New York, NY;0.25;local
+WNYC;New York, NY;0.5;local
+ABC7NY;New York, NY;0.75;local
+NBCNewYork;New York, NY;0.4;local
+CBSNewYork;New York, NY;0.8;local
+NY1;New York, NY;0.8;local
+NYDNLocal;New York, NY;0.4;local
+nypmetro;New York, NY;0.8;local
+WSJNY;New York, NY;0.45;local
+villagevoice;New York, NY;0.7;local
+TimeOutNewYork;New York, NY;0.8;local
+Gothamist;New York, NY;0.65;local
+NYPDnews;New York, NY;0.25;local
+CBCNews;Ottawa, ON;0.7;local
+SFChronicle;San Francisco, CA;0.85;local
+KVeklerov;San Francisco, CA;0.25;local
+NWSNewYorkNY;Upton, NY;0.15;local
+AP;New York, NY;0.1;global
+guardian;London, UK;0.3;global
+BBCBreaking;London, UK;0.1;global
+BuzzFeedNews;New York, NY;0.5;global
+pewresearch;Washington, D.C.;0.65;global
+RedState;Washington, D.C.;0.5;national
+NateSilver538;New York, NY;0.2;national
+EzraKlein;Washington, D.C.;0.7;global
+USATODAY;McLean, VA;0.65;global
+breakingnews;Washington, D.C.;0.1;global
+WhiteHouse;Washington, D.C.;0.55;national
+RutgersResearch;New Brunswick, NJ;0.55;national
