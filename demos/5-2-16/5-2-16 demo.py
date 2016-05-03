@@ -72,8 +72,9 @@ def demo():
                     # if the tweet itself is BREAKING
                     if "BREAKING" in entry:
                         trend_rank = 0.1
+                    trend_rank = break_trend_divide(trend, trend_rank)
                     flag = get_third(t)
-                    location_rank = get_location_ranking(source_location, current_coords, coord, flag)
+                    location_rank = get_location_ranking(source_location, current_coords, coord, flag, locality)
                 tweet_total = calculate_total_ranking(recency, locality, trend, recency_rank, location_rank, trend_rank)
                 # in case tweets have same total, they don't overwrite in dictionary
                 while tweet_total in tweets:
@@ -132,6 +133,17 @@ def organize_tweets():
     for i in sorted_tweets:
         tweet_info = tweets[i]
         tweets_organized.insert(0, tweet_info)
+
+# makes sure breaking news is not pushed down
+def break_trend_divide(trend, trend_rank):
+    if trend == 3:
+        trend_rank = 1 - trend_rank
+        return trend_rank
+    elif trend == 2:
+        trend_rank = (1 - trend_rank) / 2
+        return trend_rank
+    else:
+        return trend_rank
 
 def check_url(string):
     entry_url = re.findall(r'(https?://[^\s]+)', string)
@@ -217,9 +229,11 @@ def get_location_coordinates(location):
         except Exception:
             pass
 
-def get_location_ranking(source, current, tweet, flag):
-    if flag == "global" or flag == "national":
-        return 0.2
+def get_location_ranking(source, current, tweet, flag, local_imp):
+    if local_imp == 3 and (flag == "global" or flag == "national"):
+        return 0.75
+    elif flag == "global" or flag == "national":
+        return 0.25
     else:
         source_coords = get_location_coordinates(source)
         if tweet == "None":
