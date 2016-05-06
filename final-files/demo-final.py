@@ -79,7 +79,6 @@ def demo():
                 # in case tweets have same total, they don't overwrite in dictionary
                 # assumes that tweets already in dictionary are more recent, so if same trend & location rank from same source, then should subtract and give lower recency rank
                 while tweet_total in tweets:
-                    if 
                     tweet_total = tweet_total - 0.000001
                 tweets[tweet_total] = [entry, author, time]
                 tweet_count = tweet_count + 1
