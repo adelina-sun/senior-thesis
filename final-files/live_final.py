@@ -255,7 +255,7 @@ def get_location_ranking(source, current, tweet, flag):
         return 0.25
     else:
         source_coords = get_location_coordinates(source)
-        if tweet == "None":
+        if tweet is None:
             try:
                 dist = vincenty(source_coords, current).miles
             except Exception:
