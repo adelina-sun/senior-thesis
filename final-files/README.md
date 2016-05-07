@@ -4,7 +4,7 @@
 <ul><em>vincenty:</em> https://pypi.python.org/pypi/vincenty</ul>
 
 <p>In this folder, you'll find:</p>
-<ul><b>demo_final.py</b>: The final version of the demo, which assumes that a selection of tweets to be sorted are stored locally (along with their information) in a text file. Make sure the text file containing your tweets are in the same folder on your computer as this one.</ul>
+<ul><b>demo_final.py</b>: The final version of the demo, which assumes that a selection of tweets to be sorted are stored locally (along with their information) in a text file. Make sure the text file containing your tweets is in the same folder on your computer as this one.</ul>
 <ul><b>demo_sources.txt</b>: A shorter list of sources (approximately 50). You can use this when calling get_tweets_batch.</ul>
 <ul><b>final_sources.txt</b>: The full list of curated sources (130 in total). live_final already calls it, but you can test it out with demo_final as well. Before running anything make sure this file is saved in the same folder as the rest of the Python files (same with demo_sources.txt if you're using it). Otherwise, the application will not be able to find the source information and will crash.</b></ul>
 <ul><b>flint.txt</b>: An example batch of tweets that returned when searching for the keyword, "flint." You can test demo_final out on this text file.</ul>
