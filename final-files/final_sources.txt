@@ -1,0 +1,130 @@
+CNN;Atlanta, GA;0.7;global
+cnnbrk;Atlanta, GA;0.1;global
+newsmax;Boca Raton, FL;0.75;global
+BostonGlobe;Boston, MA;0.75;global
+csmonitor;Boston, MA;0.9;global
+AJENews;Doha, Qatar;0.4;global
+guardian;London, UK;0.3;global
+cnni;London, UK;0.65;global
+BBCWorld;London, UK;0.9;global
+SkyNews;London, UK;0.7;global
+TheEconomist;London, UK;0.8;global
+FT;London, UK;0.55;global
+BBCBreaking;London, UK;0.1;global
+SkyNewsBreak;London, UK;0.1;global
+truthdig;Los Angeles, CA;0.6;global
+USATODAY;McLean, VA;0.65;global
+WSJ;New York, NY;0.5;global
+TIME;New York, NY;0.5;global
+NBCNews;New York, NY;0.5;global
+ABC;New York, NY;0.5;global
+HuffingtonPost;New York, NY;0.8;global
+mashable;New York, NY;0.7;global
+BuzzFeedNews;New York, NY;0.5;global
+Slate;New York, NY;0.8;global
+NYMag;New York, NY;0.8;global
+ViceNews;New York, NY;0.7;global
+ProPublica;New York, NY;0.85;global
+thedailybeast;New York, NY;0.75;global
+business;New York, NY;0.75;global
+newsweek;New York, NY;0.7;global
+digg;New York, NY;0.9;global
+thenation;New York, NY;0.85;global
+YahooNews;New York, NY;0.65;global
+MSNBC;New York, NY;0.5;global
+democracynow;New York, NY;0.75;global
+andersoncooper;New York, NY;0.75;global
+BuzzfeedBen;New York, NY;0.8;global
+TEDTalks;New York, NY;0.6;global
+ReutersLive;New York, NY;0.1;global
+AP;New York, NY;0.1;global
+WSJbreakingnews;New York, NY;0.1;global
+AFP;Paris, France;0.55;global
+Alissanyt;Paris, France;0.8;global
+MotherJones;San Francisco, CA;0.7;global
+NewsHour;Washington, D.C.;0.4;global
+voxdotcom;Washington, D.C.;0.7;global
+TheAtlantic;Washington, D.C.;0.85;global
+UPI;Washington, D.C.;0.65;global
+McClatchyDC;Washington, D.C.;0.85;global
+DRUDGE_REPORT;Washington, D.C.;0.6;global
+GallupNews;Washington, D.C.;0.7;global
+pewresearch;Washington, D.C.;0.65;global
+EzraKlein;Washington, D.C.;0.7;global
+USTreasury;Washington, D.C.;0.5;global
+StateDept;Washington, D.C.;0.5;global
+DeptofDefense;Washington, D.C.;0.5;global
+breakingnews;Washington, D.C.;0.1;global
+TexasTribune;Austin, TX;0.75;local
+TexasStandard;Austin, TX;0.8;local
+Suntimes;Chicago, IL;0.6;local
+KERANews;Dallas, TX;0.6;local
+wfaachannel8;Dallas, TX;0.85;local
+Dallas_Observer;Dallas, TX;0.4;local
+Dallas_News;Dallas, TX;0.5;local
+DMagazine;Dallas, TX;0.9;local
+CBSDFW;Dallas, TX;0.65;local
+DallasBizNews;Dallas, TX;0.8;local
+dallasweekly;Dallas, TX;0.85;local
+stellamchavez;Dallas, TX;0.55;local
+tomthuang;Dallas, TX;0.85;local
+HastingsTribune;Hastings, NE;0.9;local
+NBCNebraska;Hastings, NE;0.55;local
+CatSilverTV;Hastings, NE;0.85;local
+ShaleekaNBCNEB;Hastings, NE;0.6;local
+NETNewsNebraska;Lincoln, NE;0.5;local
+1011_News;Lincoln, NE;0.65;local
+Channel8ABC;Lincoln, NE;0.85;local
+NYTMetro;New York, NY;0.7;local
+WNYC;New York, NY;0.5;local
+ABC7NY;New York, NY;0.75;local
+NBCNewYork;New York, NY;0.4;local
+CBSNewYork;New York, NY;0.8;local
+NY1;New York, NY;0.8;local
+NYDNLocal;New York, NY;0.4;local
+villagevoice;New York, NY;0.7;local
+Gothamist;New York, NY;0.65;local
+SFChronicle;San Francisco, CA;0.85;local
+EWErickson;Atlanta, GA;0.7;national
+TWCBreaking;Atlanta, GA;0.1;national
+hotairblog;Lebanon, KS;0.8;national
+BreitbartNews;Los Angeles, CA;0.75;national
+latimes;Los Angeles, CA;0.65;national
+Reuters;New York, NY;0.5;national
+nytimes;New York, NY;0.7;national
+FoxNews;New York, NY;0.4;national
+CBSNews;New York, NY;0.6;national
+MarshallProj;New York, NY;0.7;national
+FiveThirtyEight;New York, NY;0.75;national
+Nielsen;New York, NY;0.3;national
+NateSilver538;New York, NY;0.2;national
+BuzzFeedAndrew;New York, NY;0.6;national
+maddow;New York, NY;0.8;national
+jaketapper;New York, NY;0.8;national
+jmartNYT;New York, NY;0.8;national
+paulkrugman;New York, NY;0.85;national
+HarrisPoll;Rochester, NY;0.7;national
+stevesilberman;San Francisco, CA;0.9;national
+washingtonpost;Washington, D.C.;0.5;national
+NPR;Washington, D.C.;0.65;national
+Politico;Washington, D.C.;0.75;national
+RedState;Washington, D.C.;0.5;national
+CR;Washington, D.C.;0.5;national
+DailyCaller;Washington, D.C.;0.7;national
+townhallcom;Washington, D.C.;0.75;national
+thinkprogress;Washington, D.C.;0.75;national
+TheJusticeDepartment;Washington, D.C.;0.5;national
+CommerceGov;Washington, D.C.;0.75;national
+USDOL;Washington, D.C.;0.75;national
+BEA_News;Washington, D.C.;0.4;national
+TransportStats;Washington, D.C.;0.5;national
+ENERGY;Washington, D.C.;0.65;national
+DHSgov;Washington, D.C.;0.65;national
+usedgov;Washington, D.C.;0.75;national
+WhiteHouse;Washington, D.C.;0.55;national
+cspan;Washington, D.C.;0.1;national
+thehill;Washington, D.C.;0.55;national
+mattyglesias;Washington, D.C.;0.85;national
+IngrahamAngle;Washington, D.C.;0.65;national
+Chronicle;Washington, D.C.;0.85;national
+TPM;Washington, D.C.;0.45;national
