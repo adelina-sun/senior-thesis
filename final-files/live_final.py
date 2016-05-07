@@ -85,7 +85,7 @@ def application():
                     if "BREAKING" or "JUST IN" or "UPDATE" or "LIVE" in entry:
                         trend_rank = 0.1
                     flag = get_third(t)
-                    location_rank = get_location_ranking(source_location, current_coords, coord, flag)
+                    location_rank = get_location_ranking(source_location, current_coords, coord, flag, locality)
                     print(location_rank)
                 total_rank = calculate_total_ranking(recency, locality, trend, recency_rank, location_rank, trend_rank)
                 # in case tweets have same total ranking, they don't overwrite in dictionary
@@ -248,7 +248,7 @@ def get_location_coordinates(location):
         except Exception:
             pass
 
-def get_location_ranking(source, current, tweet, flag):
+def get_location_ranking(source, current, tweet, flag, local_imp):
     if local_imp == 3 and (flag == "global" or flag == "national"):
         return 0.75
     elif flag == "global" or flag == "national":
