@@ -90,8 +90,8 @@ def application():
                 total_rank = calculate_total_ranking(recency, locality, trend, recency_rank, location_rank, trend_rank)
                 # in case tweets have same total ranking, they don't overwrite in dictionary
                 while total_rank in tweets:
-                    tweet_total = tweet_total - 0.000001
-                tweets[tweet_total] = [entry, author, time]
+                    total_rank = total_rank - 0.000001
+                tweets[total_rank] = [entry, author, time]
                 tweet_count = tweet_count + 1
         except Exception:
             pass
