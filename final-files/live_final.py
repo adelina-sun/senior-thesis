@@ -156,7 +156,7 @@ def calculate_total_ranking(recency, locality, trend, recency_rank, locality_ran
     recency_weight = recency_rank**recency
     locality_weight = locality_rank**locality
     trend_weight = trend_rank**trend
-    total_weight = recency_weight + locality_weight + trend_weight
+    total_weight = recency_weight * locality_weight * trend_weight
     return total_weight
 
 def organize_tweets():
