@@ -7,7 +7,7 @@
 <ul><b>demo_final.py</b>: The final version of the demo, which assumes that a selection of tweets to be sorted are stored locally (along with their information) in a text file. Make sure the text file containing your tweets is in the same folder on your computer as this one.</ul>
 <ul><b>demo_sources.txt</b>: A shorter list of sources (approximately 50). You can use this when calling get_tweets_batch.</ul>
 <ul><b>final_sources.txt</b>: The full list of curated sources (130 in total). live_final already calls it, but you can test it out with demo_final as well. Before running anything make sure this file is saved in the same folder as the rest of the Python files (same with demo_sources.txt if you're using it). Otherwise, the application will not be able to find the source information and will crash.</b></ul>
-<ul><b>flint.txt</b>: An example batch of tweets that returned when searching for the keyword, "flint." You can test demo_final out on this text file.</ul>
+<ul><b>flint.txt</b>: An example batch of tweets that returned when searching for the keyword, "flint." You can test demo_final out on this text file (although it might no return anything interesting, as eventually the recency ranking will be the same for all tweets, since the demo compares "recency" to current time).</ul>
 <ul><b>get_tweet_batch.py</b>: Part of the demo, goes hand-in-hand with demo_final.py. Call this first to get tweets and save them locally on your computer. It will ask you to enter a filename for sources. Make sure the text file you want to use is in the same folder!</ul>
 <ul><b>live_final.py</b>: The live version of the demo. No need to call any files. It gets tweets straight from Twitter and sorts them.</ul>
 
