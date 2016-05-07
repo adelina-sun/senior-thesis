@@ -100,7 +100,7 @@ def application():
     print("%d tweets out of %d loaded (%d redundant tweets)" % (tweet_count, total_tweets, redundant))
     print("\n")
     hashtag_breakdown()
-##    clear()
+    clear()
 
 
 # acts as source organizer too
@@ -140,7 +140,7 @@ def break_trend_divide(trend, trend_rank):
         
 def clear():
     del tweets_organized[:]
-##    tweets_from_twitter.clear()
+    tweets_from_twitter.clear()
     tweets.clear()
     hashtags.clear()
     urls.clear()
